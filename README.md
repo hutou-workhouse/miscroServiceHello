@@ -4,6 +4,10 @@
 ## springbootDemo1
 一个最基本的服务，基于Spring Boot，使用Maven打包
 ```
+mvn package
 java -jar app1.jar --server.port=8020
 ```
+
+## springbootDemo2
+通过代码重新Java Config的使用逻辑
 
