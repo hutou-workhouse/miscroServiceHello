@@ -21,5 +21,14 @@ public class App {
 		//	测试通过@Import加载的配置是否生效
 		o = context.getBean("testImportResource");
 		System.out.println(o); 
+		
+		o = context.getBean("osName");
+		
+		if(o != null){
+			System.out.println("========windows system================");	
+		}else{
+			System.out.println("========linux   system================");
+		}
+		
 	}
 }
