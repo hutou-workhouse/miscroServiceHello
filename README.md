@@ -22,3 +22,10 @@ Spring boot的扩展
 
 ## springbootStarter
 演示了如何使用基本的starter。
+
+## eurekaServerHa
+演示如何搭建高可用的Eureka服务器
+```
+java -jar eurekaHa.jar --spring.profiles.active=master
+java -jar eurekaHa.jar --spring.profiles.active=backup
+```
