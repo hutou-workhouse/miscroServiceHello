@@ -19,3 +19,6 @@ java -jar app1.jar --server.port=8020
 ## springbootDemo3
 Spring boot的启动和基本原理；
 Spring boot的扩展
+
+## springbootStarter
+演示了如何使用基本的starter。
