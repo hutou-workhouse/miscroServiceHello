@@ -29,3 +29,6 @@ Spring boot的扩展
 java -jar eurekaHa.jar --spring.profiles.active=master
 java -jar eurekaHa.jar --spring.profiles.active=backup
 ```
+
+## eurekaClient
+一个最简单的服务，注册到Eureka服务器上
