@@ -32,3 +32,9 @@ java -jar eurekaHa.jar --spring.profiles.active=backup
 
 ## eurekaClient
 一个最简单的服务，注册到Eureka服务器上
+
+## springCloudConfigServer
+一个配置服务器的演示
+
+## springCloudConfigClient
+如何使用配置服务器的配置信息
