@@ -42,3 +42,7 @@ java -jar configServer.jar --spring.profiles.active=git
 
 ## springCloudConfigClient
 如何使用配置服务器的配置信息
+
+## eurekaCustomer
+进行服务的消费，消费eurekaClient服务的例子
+使用两种方式：Ribbon，Feign进行消费
