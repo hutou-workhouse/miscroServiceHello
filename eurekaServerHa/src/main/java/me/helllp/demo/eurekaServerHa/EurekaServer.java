@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * C:\Windows\System32\drivers\etc\hosts 127.0.0.1 master backup
- * java -jar xxx.jar --spring.profiles.active=master
- * java -jar xxx.jar --spring.profiles.active=backup
+ * java -jar eurekaHa.jar --spring.profiles.active=master
+ * java -jar eurekaHa.jar --spring.profiles.active=backup
  * 
  * @author hutou
  *

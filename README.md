@@ -34,7 +34,11 @@ java -jar eurekaHa.jar --spring.profiles.active=backup
 一个最简单的服务，注册到Eureka服务器上
 
 ## springCloudConfigServer
-一个配置服务器的演示
+一个配置服务器的演示，集群的搭建
+可以通过下面的配置启动git的存储方式
+```
+java -jar configServer.jar --spring.profiles.active=git
+```
 
 ## springCloudConfigClient
 如何使用配置服务器的配置信息
