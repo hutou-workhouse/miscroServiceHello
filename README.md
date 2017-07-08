@@ -45,4 +45,6 @@ java -jar configServer.jar --spring.profiles.active=git
 
 ## eurekaCustomer
 进行服务的消费，消费eurekaClient服务的例子
-使用两种方式：Ribbon，Feign进行消费
+使用两种方式：Ribbon + RestTemplate，Feign进行消费
+Ribbon的负载均衡相关配置
+进行自定义扩展
