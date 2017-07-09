@@ -61,3 +61,6 @@ Ribbon的负载均衡相关配置
 ## springCloudHystrixRibbon
 在Ribbon中使用Hystrix
 使用Hystrix Dashboard进行监控
+
+## springCloudTurbine
+进行Hystrix Dashboard信息的聚合
