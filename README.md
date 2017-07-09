@@ -54,3 +54,10 @@ Ribbon的负载均衡相关配置
 
 ## springCloudConfigBusClient
 通过消息总线 spring cloud bus进行配置文件的刷新，消费配置的服务
+
+## springCloudHystrixFeign
+在Feign中使用Hystrix
+
+## springCloudHystrixRibbon
+在Ribbon中使用Hystrix
+使用Hystrix Dashboard进行监控

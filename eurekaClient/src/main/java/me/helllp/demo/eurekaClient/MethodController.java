@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MethodController {
+	
 	@RequestMapping("/hello")
 	public String hello(@RequestParam String name){
 		return "Hello " + name;
