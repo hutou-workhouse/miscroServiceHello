@@ -64,3 +64,6 @@ Ribbon的负载均衡相关配置
 
 ## springCloudTurbine
 进行Hystrix Dashboard信息的聚合
+
+## springCloudZuul
+演示zuul的使用例子
