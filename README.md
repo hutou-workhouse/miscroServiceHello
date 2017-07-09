@@ -48,3 +48,9 @@ java -jar configServer.jar --spring.profiles.active=git
 使用两种方式：Ribbon + RestTemplate，Feign进行消费
 Ribbon的负载均衡相关配置
 进行自定义扩展
+
+## springCloudConfigBusServer
+通过消息总线 spring cloud bus进行配置文件的刷新，配置中心
+
+## springCloudConfigBusClient
+通过消息总线 spring cloud bus进行配置文件的刷新，消费配置的服务
