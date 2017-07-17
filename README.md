@@ -75,3 +75,6 @@ Ribbon的负载均衡相关配置
 ## springCloudZuul
 [Spring cloud实践之道六（网关Zuul）](http://www.jianshu.com/p/9b3fc9f1ca2e)
 演示zuul的使用例子
+
+## springCloudSleuth
+演示Sleuth + Zipkin的使用例子
