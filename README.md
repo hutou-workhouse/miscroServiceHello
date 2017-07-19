@@ -77,4 +77,6 @@ Ribbon的负载均衡相关配置
 演示zuul的使用例子
 
 ## springCloudSleuth
-演示Sleuth + Zipkin的使用例子
+[Spring cloud实践之道七（链路追踪Sleuth）](http://www.jianshu.com/p/a72db80ffe28)
+演示Sleuth + Zipkin的使用例子<br/>
+同时提供两个服务：springCloudSleuthService1，springCloudSleuthService2

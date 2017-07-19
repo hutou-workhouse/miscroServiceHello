@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>me.helllp.demo</groupId>
-	<artifactId>springCloudSleuth</artifactId>
+	<artifactId>springCloudSleuthService2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springCloudSleuth</name>
+	<name>eurekaClient</name>
 	<url>http://maven.apache.org</url>
 
 	<parent>
@@ -27,16 +27,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-	
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
         <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-server</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-autoconfigure-ui</artifactId>
-        </dependency>
-        				
+        		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -57,7 +64,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>springCloudSleuth</finalName>
+		<finalName>springCloudSleuthService12</finalName>
 		<plugins>
 			<!-- 生成Jar包 -->
 			<plugin>
@@ -73,7 +80,6 @@
 					<encoding>utf8</encoding>
 				</configuration>
 			</plugin>
-
 		</plugins>
 	</build>
 </project>

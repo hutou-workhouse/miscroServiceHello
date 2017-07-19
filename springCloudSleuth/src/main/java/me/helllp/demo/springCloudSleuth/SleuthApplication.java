@@ -9,6 +9,6 @@ import zipkin.server.EnableZipkinServer;
 @EnableZipkinServer
 public class SleuthApplication {
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(SleuthApplication.class).web(true).run(args);
+		new SpringApplicationBuilder(SleuthApplication.class).run(args);
 	}
 }
